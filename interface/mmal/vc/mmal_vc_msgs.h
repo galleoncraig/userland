@@ -136,7 +136,7 @@ typedef struct
 {
    mmal_worker_msg_header header;
 } mmal_worker_service_closed;
-vcos_static_assert(sizeof(mmal_worker_service_closed) <= MMAL_WORKER_MSG_LEN);
+//vcos_static_assert(sizeof(mmal_worker_service_closed) <= MMAL_WORKER_MSG_LEN);
 
 /** Send from VC to host to report our version */
 typedef struct
